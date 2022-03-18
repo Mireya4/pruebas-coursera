@@ -1,0 +1,78 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #8f8f8f;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-default .navbar-collapse{
+border: 0;
+}
+.navbar-brand {
+  height: 60px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Oxygen', sans-serif;
+  color: #000;
+  font-size: 2em;
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+  /*text-shadow: 1px 1px 1px #222;*/
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-bottom: 0px;
+  background: #fff;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+  border: 1px solid#000;
+}
+#nav-list a:hover {
+  background: #8f8f8f;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+h2.text-center{
+  font-weight: bold;
+  font-size: 30px;
+}
+p.text-center{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar-header{
+  overflow: hidden;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+}
+.texto{
+  background: #8f8f8f;
+  margin: 20px;
+  padding: 10px;
+}
+
+/* END HOME PAGE */
+
+/********** Extra small devices only **********/
